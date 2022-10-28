@@ -1,0 +1,233 @@
+/* CSS Start */
+html
+{
+	scroll-behavior:smooth;
+}
+/* Header Section*/
+header
+{
+	background:#0e33fd;
+}
+header ul
+{
+	margin:0px;
+	padding:0px;
+}
+header li
+{
+	display:inline-block;
+}
+header a
+{
+	color:#fff;
+	padding:18px;
+	font-size:30px;
+	font-family:monotype corsiva;
+	text-decoration:none;
+	display:block;
+}
+/* Banner-Section */
+
+.banner-section
+{
+	background:url('../images/bg.jpg');
+	height:530px;
+	background-size:cover;
+
+}
+h1
+{
+	text-align:center;
+	font-family:calibri;
+	
+
+}
+/* about-section */
+
+.about-section
+{
+	padding-top:30px;
+}
+.about-section p
+{
+	color:#9f6755;
+	font-family:Gabriola;
+	font-size:25px;
+	line-height:40px;
+	text-align:justify;
+	font-weight:bold;
+}
+/* Hotel Images */
+.pictures
+{
+	padding-top:15px;
+}
+.pictures div
+{
+	width:29%;
+	display:inline-block;
+	padding:15px;
+}
+.pictures img
+{
+	height:52%;
+	width:100%;
+}
+.pictures img:hover
+{
+	transform:scale(1.1,1.1);
+	transition:ease-in-out 1s;
+	opacity:0.4;
+	cursor:crosshair;
+}
+/* Service Section Start */
+.service-section
+{
+	padding-top:30px;
+}
+.service-section h2
+{
+	font-family:century gothic;
+}
+.service-section div
+{
+	width:18%;
+	display:inline-block;
+	padding:30px;
+	background:#f4cb64;
+	margin:6px;
+}
+.service-section p
+{
+	text-align:justify;
+	font-family:calibri;
+	font-size:18px;
+
+}
+.service-section a
+{
+	font-size:40px;
+	color:#000;
+}
+.service-section div:hover
+{
+	background:#fff;
+}
+
+/* Contact-Section Start */
+
+.Contact-Section
+{
+	width:100%;
+	display:flex;
+
+}
+.cont1
+{
+ 	 margin:5px;
+	 text-align:center;	
+	 border:5px solid black;
+     background:black;  
+	 color:white;
+	 font-size:25px;
+	 font-family:calibri;
+	 margin-top:0px;
+	 width:60%;
+}
+
+.cont1 input
+{
+		
+		height:40px;
+		width:450px;
+	   margin:2px;
+	   padding-top:12px;
+}
+#sub
+{
+		background:#ffafb8;
+		
+}
+.btn3
+{
+		
+		background:white;
+		font-size:20px;
+
+}
+
+.cont2
+{
+     margin:5px;
+	 text-align:center;	
+	 border:5px solid black;
+     background:black;  
+	 color:white;
+	 font-size:25px;
+	 font-family:calibri;
+	 margin-top:0px;
+	 width: 40%;
+}
+
+.cont2 img
+{
+	
+	height:230px;
+	width:80%;
+}
+/* Footer Section CSS Start */
+
+/* footer section CSS Start */
+.footer-section
+{
+		background:black;
+		color:white;
+				
+}
+.footer-section p
+{
+    font-size:25px;	
+	font-family:monotype corsiva;
+	color:#ffafb8;
+}
+.footer-section div
+{
+	width:30%;
+	display:inline-block;
+}
+
+.footer-section h1,h2, h3
+{
+	font-family:calibri;
+}	
+
+#foot
+{
+	padding-left:20px;
+}
+
+.social ul li
+{
+	display:inline-block;
+	padding:8px;
+	text-align:center;
+}
+
+.plateform ul li 
+{
+    padding:2px;
+	font-size:20px;
+}
+.support ul li 
+{
+    padding:2px;
+	font-size:20px;
+}
+
+
+.footer-section ul li a
+{
+	font-size:25px;
+	color:white;
+}
+
